@@ -1,0 +1,15 @@
+create table deodrand(
+ deo_ id INT NOT NULL AUTO_INCREMENT,
+   deo_brand VARCHAR(40) NOT NULL,
+   deo_ feature VARCHAR(100) NOT NULL,
+   
+   PRIMARY KEY ( deodrand_id )
+);
+
+INSERT INTO 
+	deodrand(deo_id deo_brand, deo_feature) 
+VALUES
+	('1','Denver','Blended Fragnance For Men'),
+  ('2','Fog', 'For men'),
+  ('3','Nivea', 'For women');
+  
