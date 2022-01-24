@@ -11,6 +11,8 @@
     <td>deo_id</td>
     <td>deo_brand</td>
     <td>deo_feature</td>
+    <td>Images</td>
+
   </tr>
 
 <?php
@@ -26,6 +28,8 @@ while($data = mysqli_fetch_array($records))
     <td><?php echo $data['deo_id']; ?></td>
     <td><?php echo $data['deo_brand']; ?></td>
     <td><?php echo $data['deo_feature']; ?></td>
+    <td><img src="<?php echo $data['images']; ?>" width="100" height="100"></td>
+
   </tr>	
 <?php
 }
